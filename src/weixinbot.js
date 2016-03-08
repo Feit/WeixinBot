@@ -135,7 +135,7 @@ class WeixinBot extends EventEmitter {
     if (this.receiver) {
       debug(`发送二维码图片到邮箱 ${this.receiver}`);
       this.transporter.sendMail({
-        from: 'WeixinBot <weixinbot@feit.me>',
+        from: `WeixinBot < ${this.transporter.transporter.options.auth.user} >`,
         to: this.receiver,
         subject: 'WeixinBot 请求登录',
         html: `<img src="${qrcodeUrl}" height="256" width="256" />`,
