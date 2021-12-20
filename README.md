@@ -4,13 +4,11 @@ __    __       _        _           ___         _
 \ \/  \/ // _ \| |\ \/ /| || '_ \  /__\// / _ \ | __|
  \  /\  /|  __/| | >  < | || | | |/ \/  \| (_) || |_
   \/  \/  \___||_|/_/\_\|_||_| |_|\_____/ \___/  \__|
-                                 微信Nodejs版 by feit
 ```
 
-## Nodejs 封装网页版微信的接口，可编程控制微信消息
+## Deprecated
 
 [![NPM version](https://badge.fury.io/js/weixinbot.png)](http://badge.fury.io/js/weixinbot)
-[![Dependencies Status](https://david-dm.org/feit/weixinbot.png)](https://david-dm.org/feit/weixinbot)
 
 ### Install
 ```
